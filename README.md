@@ -7,8 +7,8 @@ where a Python script logs and plots it over time.
 ## Status
 - [x] UART transmitter (Verilog finite state machine, 115200 baud from a 100 MHz clock)
 - [x] Testbench, verified in Vivado behavioral simulation
-- [ ] Top module: send the board's switch values once per second
-- [ ] Run on hardware
+- [x] Top module: send the board's switch values once per second
+- [x] Run on hardware
 - [ ] Python logger (pyserial, Pandas, Matplotlib)
 - [ ] Onboard temperature sensor over I2C
 

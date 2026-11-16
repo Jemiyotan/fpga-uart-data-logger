@@ -26,7 +26,7 @@ module uart_tx_tb;
     // The test script
     initial begin
         #100;               // wait 100 ns
-        data  = 8'h41;    // the letter "A" in hex
+        data  = 8'h55;    // the letter "A" in hex
         start = 1;          // press "send"
         #10;                // hold it for one clock cycle
         start = 0;          // let go
